@@ -1,0 +1,52 @@
+.form-section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+   
+}
+
+form{
+    width: 70%;
+}
+
+label{
+    margin-bottom: 10px;
+}
+
+input{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 5px;
+    height: 50px;
+    background-color: rgba(245, 245, 245, 0.498);
+}
+
+textarea{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 5px;
+    height: 70px;
+    background-color:rgba(245, 245, 245, 0.498);
+}
+
+select{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 5px;
+    height: 50px;
+    background-color: rgba(245, 245, 245, 0.498);
+}
+
+#save-button{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mat-toolbar{
+    border-radius: 2px;
+}

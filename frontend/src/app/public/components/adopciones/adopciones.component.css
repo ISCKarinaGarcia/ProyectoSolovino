@@ -1,0 +1,20 @@
+span{
+     width: auto;
+}
+
+img{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.card{
+
+    background-color: rgba(112, 219, 208, 0.116);
+    border-radius: 7%;
+    border-color: rgb(19, 195, 195);
+
+}
+
+button{
+    border-radius: 10px;
+}

@@ -1,0 +1,29 @@
+<main>
+    <div class="row-sm-12 row-md-12 row-lg-12 d-flex justify-content-center">
+        <div class="col-sm-12 col-md-8 col-lg-8">
+            <h2>Sobre nosotros</h2>
+        </div>
+    </div>
+
+    <div class="row-sm-12 row-md-12 row-lg-12 d-flex justify-content-center">
+        <div class="col-sm-12 col-md-8 col-lg-8">
+            <mat-card>
+                <mat-card-header>
+                <mat-card-title>
+                        Formulario
+                </mat-card-title>
+                </mat-card-header>
+                <mat-card-content>
+                    <form [formGroup]="aboutUsForm">
+                        <section class="formGroup" formArrayName="equipo">
+                            <div class="array-controls" *ngFor="let control of aboutUsForm.control.equipo['controls']">
+                                
+                            </div> 
+                        </section>
+                    </form>
+                </mat-card-content>
+            </mat-card>
+        </div>
+    </div>
+</main>
+
